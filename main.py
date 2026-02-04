@@ -9,6 +9,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Python Program")
+        self.setGeometry(700, 300, 500, 500)
 
 def main():
     app = QApplication(sys.argv)
